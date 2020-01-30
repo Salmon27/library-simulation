@@ -17,6 +17,7 @@ Whenever the user wants to use the library system, the system should check that 
 
 Add new books:
 All books should be loaded into the library database system prior to being used. In order to register new book, the following data should be entered: ISBN, title, author, publisher, Quantity. 
+
 Borrow Books:
 •	When a customer borrows the book, system needs to check the given customer is already registered through searching for the user list. If he/she is valid, borrowing the book is allowed.
 •	Librarian enters the book title or ISBN and quantity to be borrowed, system checks if the given book is in the library and also the quantity user asked is available. The quantity must be an unsigned integer. 
